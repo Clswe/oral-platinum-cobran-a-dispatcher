@@ -1,0 +1,11 @@
+[
+    {
+        "PayerName": "TUANY BUENO DE SOUZA",
+        "ExternalStatus": "PENDING",
+        "BoletoUrl": "https://api.1pay.it/api/boleto/display/1ec65dd5-47fd-4f28-8969-a225852dc3b0",
+        "PayerPhone": "553599548033",
+        "DueDate": "2025-03-30T03:00:00.000Z",
+        "DaysDue": 5,
+        "BoletoDigitalLine": "40192025087600000000000001643188710360000015000"
+    }
+]
