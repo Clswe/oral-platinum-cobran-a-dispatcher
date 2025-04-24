@@ -8,7 +8,7 @@ def run_script(script_name):
         print(f"Error occurred while executing {script_name}: {e}")
 
 # Lista de scripts a serem executados sequencialmente
-scripts = ['dispatcher-charge-twenty-days/find_charge.py', 'dispatcher-charge-twenty-days/contact_manager.py', 'dispatcher-charge-twenty-days/send_mensage.py']
+scripts = ['oral-platinum-cobran-a-dispatcher/dispatcher-charge-twenty-days/find_charge.py', 'oral-platinum-cobran-a-dispatcher/dispatcher-charge-twenty-days/contact_manager.py', 'oral-platinum-cobran-a-dispatcher/dispatcher-charge-twenty-days/send_mensage.py']
 
 for script in scripts:
     run_script(script)
