@@ -1,6 +1,9 @@
 import subprocess
 import os
 
+# Caminho base: onde o script automaticRun.py realmente está
+base_dir = os.path.dirname(os.path.realpath(__file__))
+
 def run_script(script_name):
     script_path = os.path.join(base_dir, script_name)
     try:
@@ -9,10 +12,7 @@ def run_script(script_name):
     except subprocess.CalledProcessError as e:
         print(f"Error occurred while executing {script_name}: {e}")
 
-# Caminho base (diretório onde este script está localizado)
-base_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Lista de scripts a serem executados sequencialmente
+# Lista de scripts a serem executados (usando caminhos relativos à pasta do automaticRun.py)
 scripts = [
     'oral-platinum-cobran-a-dispatcher/dispatcher-charge-five-days/find_charge.py',
     'oral-platinum-cobran-a-dispatcher/dispatcher-charge-five-days/contact_manager.py',
