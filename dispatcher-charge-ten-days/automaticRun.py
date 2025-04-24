@@ -14,10 +14,11 @@ def run_script(script_name):
 
 # Lista de scripts a serem executados (usando caminhos relativos à pasta do automaticRun.py)
 scripts = [
-    'oral-platinum-cobran-a-dispatcher/dispatcher-charge-ten-days/find_charge.py',
-    'oral-platinum-cobran-a-dispatcher/dispatcher-charge-ten-days/contact_manager.py',
-    'oral-platinum-cobran-a-dispatcher/dispatcher-charge-ten-days/send_mensage.py'
+    'find_charge.py',
+    'contact_manager.py',
+    'send_mensage.py'
 ]
+
 
 for script in scripts:
     run_script(script)
