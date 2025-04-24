@@ -54,8 +54,7 @@ def send_whatsapp_message(contact_id, phone, name, boleto_url, due_date, token):
                     {
                         "type": "body",
                         "parameters": [
-                            {"type": "text", "text": name},
-                            {"type": "text", "text": formatted_date}
+                            {"type": "text", "text": name}
                         ]
                     },
                     {

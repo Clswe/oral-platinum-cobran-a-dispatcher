@@ -115,7 +115,7 @@ def main():
         logger.error('Falha ao obter o token de acesso.')
         return
     
-    json_file = 'dispatcher-charge-five-days/debitos/listDebit.json'
+    json_file = 'dispatcher-charge-remenber-days/debitos/listDebit.json'
     
     if not os.path.exists(json_file):
         logger.error(f'O arquivo {json_file} não foi encontrado.')

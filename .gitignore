@@ -1,0 +1,8 @@
+# Ignorar diretórios
+**/contatos/
+**/debitos/
+
+# Ignorar arquivos específicos (caso estejam na raiz ou em qualquer subpasta)
+**/ignored_boletos.json
+**/listDebit.json
+**/contacts.json
