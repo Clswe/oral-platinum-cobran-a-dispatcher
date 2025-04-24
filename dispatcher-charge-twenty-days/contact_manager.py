@@ -97,6 +97,10 @@ def set_variable(contact_id, variable_id, variable_value, token):
 
 
 def save_to_json(data, filename):
+    # Garante que a pasta existe antes de salvar o arquivo
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+    
+    # Salva o arquivo
     with open(filename, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
